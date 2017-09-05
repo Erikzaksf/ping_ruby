@@ -3,7 +3,9 @@ public def ping_pong(number)
   array = []
   while (x < number)
     x = x + 1
-    if x % 5 == 0
+    if x % 15 == 0
+      array.push("pingpong")
+    elsif x % 5 == 0
       array.push("pong")
     elsif x % 3 == 0
       array.push("ping")
